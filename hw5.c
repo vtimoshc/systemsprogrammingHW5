@@ -6,6 +6,7 @@
 #include "modifyChange.h" 
 #include "printInfoHelp.h"
 #include "Monitor.h"
+#include "Options.h"
 
 int main(int argc, char* argv[])
 {
@@ -27,5 +28,6 @@ int main(int argc, char* argv[])
 	printInfoHelp(filename);
 	
 	modifyChange(filename);
+	Options(argc, argv[]);
 }
 
