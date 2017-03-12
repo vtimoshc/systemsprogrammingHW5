@@ -7,8 +7,7 @@
 #include "printInfoHelp.h"
 #include "Monitor.h"
 #include "Options.h"
-//#include "location.h"
-//#include "backupFile.h"
+#include "backupFile.h"
 
 int main(int argc, char* argv[])
 {
@@ -37,5 +36,6 @@ int main(int argc, char* argv[])
 	
 	modifyChange(filename);
 	Options(argc, argv);
+	backipFile();
 }
 
